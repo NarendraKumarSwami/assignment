@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------
+Test set: TestCases
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in TestCases
+basicChecks  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.ClassNotFoundException: dao.EmployeeDaoImpl
+	at TestCases.basicChecks(TestCases.java:27)
+
+addEmployee  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NoSuchMethodException: utilities.EMUtil.provideEntityManager()
+	at TestCases.addEmployee(TestCases.java:45)
+
+addEmployeeExceptions  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NoSuchMethodException: entities.Employee.setEmpName(java.lang.String)
+	at TestCases.addEmployeeExceptions(TestCases.java:74)
+
+findEmployeeById  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NoSuchMethodException: utilities.EMUtil.provideEntityManager()
+	at TestCases.findEmployeeById(TestCases.java:91)
+
+findEmployeeByIdException  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NoSuchMethodException: utilities.EMUtil.provideEntityManager()
+	at TestCases.findEmployeeByIdException(TestCases.java:112)
+
+deleteEmployee  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NoSuchMethodException: utilities.EMUtil.provideEntityManager()
+	at TestCases.deleteEmployee(TestCases.java:138)
+
+deleteEmployeeException  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NoSuchMethodException: utilities.EMUtil.provideEntityManager()
+	at TestCases.deleteEmployeeException(TestCases.java:163)
+
+getEmployeeAddress  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NoSuchMethodException: utilities.EMUtil.provideEntityManager()
+	at TestCases.getEmployeeAddress(TestCases.java:189)
+
+getEmployeeAddressException  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NoSuchMethodException: utilities.EMUtil.provideEntityManager()
+	at TestCases.getEmployeeAddressException(TestCases.java:210)
+
+giveBonusToEmployee  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NoSuchMethodException: utilities.EMUtil.provideEntityManager()
+	at TestCases.giveBonusToEmployee(TestCases.java:249)
+
+giveBonusToEmployeeException  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NoSuchMethodException: utilities.EMUtil.provideEntityManager()
+	at TestCases.giveBonusToEmployeeException(TestCases.java:275)
+
+buildScore  Time elapsed: 0 s
